@@ -5,7 +5,7 @@ import SidebarItem from "./SidebarItem";
 export default function Sidebar() {
   return (
     <SidebarDiv>
-      <Title>빈자리닷 대시보드</Title>
+      <Title>제비 대시보드</Title>
       <SidebarItem to="/users" icon="👤" label="사용자" />
       <SidebarItem to="/college-auth" icon="🏫" label="단과대 인증" />
       <SidebarItem to="/stores" icon="🏪" label="가게" />
